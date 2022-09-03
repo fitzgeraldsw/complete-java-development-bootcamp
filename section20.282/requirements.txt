@@ -1,0 +1,15 @@
+The store sells movies and lets the user rent/return them.
+The store starts by adding movies to its collection.
+A movie is described by its name, format, and rating.
+
+               Test Cases
+----------------------------------------
+- adding a movie
+    - test if store contains movie after added
+- selling a movie
+    - test if movie is removed after it is sold
+    - throw IllegalStateOperation for selling a rented movie
+- renting a movie
+    - test if changed state to rented
+- returning a movie
+    - test if movie is available again
